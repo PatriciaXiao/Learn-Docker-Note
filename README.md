@@ -12,3 +12,13 @@
 ## Tutorials
 - [official tutorial upon installing](https://hub.docker.com/?overlay=onboarding)
     * official example contained [here](https://github.com/docker/doodle), I put the examples and the readme in [./official-examples/](./official-examples/)
+        * I tried:
+            ```shell
+            cd cheers2019
+            docker build -t patriciaxiao/cheers2019 .
+            ```
+            where *patriciaxiao* is my Docker username. 
+            Then:
+            ```shell
+            docker run -it --rm patriciaxiao/cheers2019
+            ```
