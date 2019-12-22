@@ -17,7 +17,7 @@
             cd cheers2019
             docker build -t patriciaxiao/cheers2019 .
             ```
-            where *patriciaxiao* is my Docker username. 
+            where *patriciaxiao* is my Docker username, as is registered with Docker, on its official website upon downloading. 
             Then:
             ```shell
             docker run -it --rm patriciaxiao/cheers2019
