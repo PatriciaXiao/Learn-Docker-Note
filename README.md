@@ -22,3 +22,8 @@
             ```shell
             docker run -it --rm patriciaxiao/cheers2019
             ```
+        * In order to share it with the world we could:
+            ```shell
+            docker login &&
+            docker push patriciaxiao/cheers2019
+            ```
