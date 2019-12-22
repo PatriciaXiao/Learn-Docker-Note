@@ -22,8 +22,16 @@
             ```shell
             docker run -it --rm patriciaxiao/cheers2019
             ```
-        * In order to share it with the world we could:
+        * In order to share it *with the world* I could:
             ```shell
             docker login &&
             docker push patriciaxiao/cheers2019
+            ```
+        * In order to use it, from another place we say:
+            ```shell
+            docker pull patriciaxiao/cheers2019
+            ```
+            and then
+            ```shell
+            ocker run -it --rm patriciaxiao/cheers2019
             ```
