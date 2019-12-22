@@ -24,7 +24,7 @@
             ```
         * In order to share it *with the world* I could:
             ```shell
-            docker login &&
+            docker login
             docker push patriciaxiao/cheers2019
             ```
         * In order to use it, from another place we say:
