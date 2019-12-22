@@ -36,3 +36,4 @@
             ocker run -it --rm patriciaxiao/cheers2019
             ```
         * my repositories will be managable [here online](https://hub.docker.com/r/patriciaxiao/)
+- [official documentation](https://docs.docker.com/)
