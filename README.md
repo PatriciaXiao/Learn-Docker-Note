@@ -36,4 +36,15 @@
             ocker run -it --rm patriciaxiao/cheers2019
             ```
         * my repositories will be managable [here online](https://hub.docker.com/r/patriciaxiao/)
+        * to stop all containers we use:
+            ```shell
+            docker container stop
+            ```
 - [official documentation](https://docs.docker.com/)
+
+## Flags Cheatsheet ([reference](https://docs.docker.com/engine/reference/run/))
+| flag      | explanations                                                                             |
+| :-------: | :--------------------------------------------------------------------------------------: |
+| ```-it``` | interactive; somewhat equivalent with ```-i -t```, but ```-t``` usage is more restricted |
+
+
