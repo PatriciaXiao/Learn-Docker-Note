@@ -46,7 +46,7 @@
 ## Starter Commands
 * To run Ubuntu environment:
     ```docker run -i -t ubuntu /bin/bash ```
-    and exit by CTRL+P+Q
+    and exit by CTRL+P+Q; kill by ```docker ps -a``` and then do ```docker kill XXXX``` to the id (XXXX); remove image by getting image id by ```docker images``` and then ```sudo docker rmi XXXXXX```, probably ```docker rm XXXX (container id)``` first (**sudo** might be needed).
 
 ## Flags Cheatsheet ([reference](https://docs.docker.com/engine/reference/run/))
 | flag      | explanations                                                                             |
