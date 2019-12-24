@@ -48,7 +48,13 @@
 
 ### Ubuntu environment example
 * To run:
-    ```docker run -i -t ubuntu /bin/bash ```
+    ```shell
+    docker run -i -t ubuntu /bin/bash 
+    ```
+    or
+    ```shell
+    docker run -it 4ef /bin/bash
+    ```
 * Exit by CTRL+P+Q
 * Kill by ```docker ps -a``` and then do ```docker kill XXXX``` to the id (XXXX)
 * Remove image by getting image id by ```docker images``` and then ```sudo docker rmi XXXXXX```, probably remove the container using the image by ```docker rm XXXX (container id)``` first such that you can successfully remove the image (**sudo** might be needed).
