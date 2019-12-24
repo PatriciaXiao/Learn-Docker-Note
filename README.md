@@ -40,7 +40,8 @@
             ```shell
             docker container stop
             ```
-- [official documentation](https://docs.docker.com/)
+- [official documentation on docker](https://docs.docker.com/)
+- [official documentation on docker + pytorch + GPU](https://ngc.nvidia.com/catalog/containers/nvidia:pytorch)
 - [a CSDN blog on building PyTorch image with GPU support](https://blog.csdn.net/mumoDM/article/details/82503022)
 
 ## Starter Commands
