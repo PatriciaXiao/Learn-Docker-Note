@@ -41,6 +41,7 @@
             docker container stop
             ```
 - [official documentation](https://docs.docker.com/)
+- [a CSDN blog on building PyTorch image with GPU support](https://blog.csdn.net/mumoDM/article/details/82503022)
 
 ## Starter Commands
 * To run Ubuntu environment:
