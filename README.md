@@ -42,6 +42,11 @@
             ```
 - [official documentation](https://docs.docker.com/)
 
+## Starter Commands
+* To run Ubuntu environment:
+    ```docker run -i -t ubuntu /bin/bash ```
+    and exit by CTRL+P+Q
+
 ## Flags Cheatsheet ([reference](https://docs.docker.com/engine/reference/run/))
 | flag      | explanations                                                                             |
 | :-------: | :--------------------------------------------------------------------------------------: |
