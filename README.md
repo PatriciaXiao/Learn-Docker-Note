@@ -45,9 +45,13 @@
 - [a CSDN blog on building PyTorch image with GPU support](https://blog.csdn.net/mumoDM/article/details/82503022)
 
 ## Starter Commands
-* To run Ubuntu environment:
+
+### Ubuntu environment example
+* To run:
     ```docker run -i -t ubuntu /bin/bash ```
-    and exit by CTRL+P+Q; kill by ```docker ps -a``` and then do ```docker kill XXXX``` to the id (XXXX); remove image by getting image id by ```docker images``` and then ```sudo docker rmi XXXXXX```, probably ```docker rm XXXX (container id)``` first (**sudo** might be needed).
+* Exit by CTRL+P+Q
+* Kill by ```docker ps -a``` and then do ```docker kill XXXX``` to the id (XXXX)
+* Remove image by getting image id by ```docker images``` and then ```sudo docker rmi XXXXXX```, probably remove the container using the image by ```docker rm XXXX (container id)``` first such that you can successfully remove the image (**sudo** might be needed).
 
 ## Flags Cheatsheet ([reference](https://docs.docker.com/engine/reference/run/))
 | flag      | explanations                                                                             |
